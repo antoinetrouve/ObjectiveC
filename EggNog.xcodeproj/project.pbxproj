@@ -12,6 +12,8 @@
 		ECA294CA1C50D8AA0091B72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA294C91C50D8AA0091B72F /* Assets.xcassets */; };
 		ECA294CD1C50D8AA0091B72F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA294CB1C50D8AA0091B72F /* MainMenu.xib */; };
 		ECA294D81C50F14E0091B72F /* Voiture.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA294D71C50F14E0091B72F /* Voiture.m */; };
+		ECA294DB1C510C620091B72F /* Vehicule.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA294DA1C510C620091B72F /* Vehicule.m */; };
+		ECA294DE1C510C750091B72F /* Camion.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA294DD1C510C750091B72F /* Camion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		ECA294CE1C50D8AA0091B72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECA294D61C50F14E0091B72F /* Voiture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voiture.h; sourceTree = "<group>"; };
 		ECA294D71C50F14E0091B72F /* Voiture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voiture.m; sourceTree = "<group>"; };
+		ECA294D91C510C620091B72F /* Vehicule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicule.h; sourceTree = "<group>"; };
+		ECA294DA1C510C620091B72F /* Vehicule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicule.m; sourceTree = "<group>"; };
+		ECA294DC1C510C750091B72F /* Camion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camion.h; sourceTree = "<group>"; };
+		ECA294DD1C510C750091B72F /* Camion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,14 +62,15 @@
 		ECA294C21C50D8AA0091B72F /* EggNog */ = {
 			isa = PBXGroup;
 			children = (
+				ECA294E11C510CE00091B72F /* Voiture */,
+				ECA294E01C510CC70091B72F /* Camion */,
+				ECA294DF1C510CB00091B72F /* Vehicule */,
 				ECA294C31C50D8AA0091B72F /* AppDelegate.h */,
 				ECA294C41C50D8AA0091B72F /* AppDelegate.m */,
 				ECA294C91C50D8AA0091B72F /* Assets.xcassets */,
 				ECA294CB1C50D8AA0091B72F /* MainMenu.xib */,
 				ECA294CE1C50D8AA0091B72F /* Info.plist */,
 				ECA294C61C50D8AA0091B72F /* Supporting Files */,
-				ECA294D61C50F14E0091B72F /* Voiture.h */,
-				ECA294D71C50F14E0091B72F /* Voiture.m */,
 			);
 			path = EggNog;
 			sourceTree = "<group>";
@@ -74,6 +81,33 @@
 				ECA294C71C50D8AA0091B72F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECA294DF1C510CB00091B72F /* Vehicule */ = {
+			isa = PBXGroup;
+			children = (
+				ECA294D91C510C620091B72F /* Vehicule.h */,
+				ECA294DA1C510C620091B72F /* Vehicule.m */,
+			);
+			name = Vehicule;
+			sourceTree = "<group>";
+		};
+		ECA294E01C510CC70091B72F /* Camion */ = {
+			isa = PBXGroup;
+			children = (
+				ECA294DC1C510C750091B72F /* Camion.h */,
+				ECA294DD1C510C750091B72F /* Camion.m */,
+			);
+			name = Camion;
+			sourceTree = "<group>";
+		};
+		ECA294E11C510CE00091B72F /* Voiture */ = {
+			isa = PBXGroup;
+			children = (
+				ECA294D61C50F14E0091B72F /* Voiture.h */,
+				ECA294D71C50F14E0091B72F /* Voiture.m */,
+			);
+			name = Voiture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +181,8 @@
 			files = (
 				ECA294C81C50D8AA0091B72F /* main.m in Sources */,
 				ECA294C51C50D8AA0091B72F /* AppDelegate.m in Sources */,
+				ECA294DE1C510C750091B72F /* Camion.m in Sources */,
+				ECA294DB1C510C620091B72F /* Vehicule.m in Sources */,
 				ECA294D81C50F14E0091B72F /* Voiture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

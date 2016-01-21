@@ -7,14 +7,9 @@
 //
 
 #import "Voiture.h"
+#import "Vehicule.h"
 
 @implementation Voiture
 
-@synthesize marque,modele,annee,cyclindre;
-
-- (void)afficheDetails
-{
-  NSLog(@"Voiture %@ %@ %i %f", self.marque , self.modele, self.annee, self.cyclindre);
-}
 
 @end
