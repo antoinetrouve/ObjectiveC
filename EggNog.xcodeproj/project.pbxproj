@@ -11,6 +11,7 @@
 		ECA294C81C50D8AA0091B72F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA294C71C50D8AA0091B72F /* main.m */; };
 		ECA294CA1C50D8AA0091B72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA294C91C50D8AA0091B72F /* Assets.xcassets */; };
 		ECA294CD1C50D8AA0091B72F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA294CB1C50D8AA0091B72F /* MainMenu.xib */; };
+		ECA294D81C50F14E0091B72F /* Voiture.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA294D71C50F14E0091B72F /* Voiture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		ECA294C91C50D8AA0091B72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECA294CC1C50D8AA0091B72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		ECA294CE1C50D8AA0091B72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA294D61C50F14E0091B72F /* Voiture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voiture.h; sourceTree = "<group>"; };
+		ECA294D71C50F14E0091B72F /* Voiture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voiture.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 				ECA294CB1C50D8AA0091B72F /* MainMenu.xib */,
 				ECA294CE1C50D8AA0091B72F /* Info.plist */,
 				ECA294C61C50D8AA0091B72F /* Supporting Files */,
+				ECA294D61C50F14E0091B72F /* Voiture.h */,
+				ECA294D71C50F14E0091B72F /* Voiture.m */,
 			);
 			path = EggNog;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			files = (
 				ECA294C81C50D8AA0091B72F /* main.m in Sources */,
 				ECA294C51C50D8AA0091B72F /* AppDelegate.m in Sources */,
+				ECA294D81C50F14E0091B72F /* Voiture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
