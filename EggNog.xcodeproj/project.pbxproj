@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA294C51C50D8AA0091B72F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA294C41C50D8AA0091B72F /* AppDelegate.m */; };
+		ECA294C81C50D8AA0091B72F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA294C71C50D8AA0091B72F /* main.m */; };
+		ECA294CA1C50D8AA0091B72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA294C91C50D8AA0091B72F /* Assets.xcassets */; };
+		ECA294CD1C50D8AA0091B72F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA294CB1C50D8AA0091B72F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECA294C01C50D8AA0091B72F /* EggNog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggNog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA294C31C50D8AA0091B72F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECA294C41C50D8AA0091B72F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECA294C71C50D8AA0091B72F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA294C91C50D8AA0091B72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA294CC1C50D8AA0091B72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ECA294CE1C50D8AA0091B72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA294BD1C50D8AA0091B72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA294B71C50D8AA0091B72F = {
+			isa = PBXGroup;
+			children = (
+				ECA294C21C50D8AA0091B72F /* EggNog */,
+				ECA294C11C50D8AA0091B72F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA294C11C50D8AA0091B72F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA294C01C50D8AA0091B72F /* EggNog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA294C21C50D8AA0091B72F /* EggNog */ = {
+			isa = PBXGroup;
+			children = (
+				ECA294C31C50D8AA0091B72F /* AppDelegate.h */,
+				ECA294C41C50D8AA0091B72F /* AppDelegate.m */,
+				ECA294C91C50D8AA0091B72F /* Assets.xcassets */,
+				ECA294CB1C50D8AA0091B72F /* MainMenu.xib */,
+				ECA294CE1C50D8AA0091B72F /* Info.plist */,
+				ECA294C61C50D8AA0091B72F /* Supporting Files */,
+			);
+			path = EggNog;
+			sourceTree = "<group>";
+		};
+		ECA294C61C50D8AA0091B72F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECA294C71C50D8AA0091B72F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA294BF1C50D8AA0091B72F /* EggNog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA294D11C50D8AA0091B72F /* Build configuration list for PBXNativeTarget "EggNog" */;
+			buildPhases = (
+				ECA294BC1C50D8AA0091B72F /* Sources */,
+				ECA294BD1C50D8AA0091B72F /* Frameworks */,
+				ECA294BE1C50D8AA0091B72F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggNog;
+			productName = EggNog;
+			productReference = ECA294C01C50D8AA0091B72F /* EggNog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA294B81C50D8AA0091B72F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = iia.antoinetrouve;
+				TargetAttributes = {
+					ECA294BF1C50D8AA0091B72F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = ECA294BB1C50D8AA0091B72F /* Build configuration list for PBXProject "EggNog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA294B71C50D8AA0091B72F;
+			productRefGroup = ECA294C11C50D8AA0091B72F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA294BF1C50D8AA0091B72F /* EggNog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA294BE1C50D8AA0091B72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA294CA1C50D8AA0091B72F /* Assets.xcassets in Resources */,
+				ECA294CD1C50D8AA0091B72F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA294BC1C50D8AA0091B72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA294C81C50D8AA0091B72F /* main.m in Sources */,
+				ECA294C51C50D8AA0091B72F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECA294CB1C50D8AA0091B72F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA294CC1C50D8AA0091B72F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA294CF1C50D8AA0091B72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ECA294D01C50D8AA0091B72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECA294D21C50D8AA0091B72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EggNog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iia.EggNog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECA294D31C50D8AA0091B72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EggNog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iia.EggNog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA294BB1C50D8AA0091B72F /* Build configuration list for PBXProject "EggNog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA294CF1C50D8AA0091B72F /* Debug */,
+				ECA294D01C50D8AA0091B72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA294D11C50D8AA0091B72F /* Build configuration list for PBXNativeTarget "EggNog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA294D21C50D8AA0091B72F /* Debug */,
+				ECA294D31C50D8AA0091B72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA294B81C50D8AA0091B72F /* Project object */;
+}
